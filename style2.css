@@ -10,8 +10,13 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 } 
 
+.all-content {
+	width: 1000px;
+	margin: auto;
+}
 ul{
 	list-style: none;
 	}
@@ -21,7 +26,7 @@ a:link{
 }	
 
 a:visited{
-	color: #ecf2f9;
+	color: #3498db;
 }
 
 a:hover{
@@ -32,34 +37,51 @@ a:active {
 	color: #005580;
 }	
 
-.section-one {
+section {
     width: 100%;
-	height:85vh;
-	background-image: url('bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
+    height:15vh;
 	position: relative;
 }
 
+
+.section2 {
+	    margin-top: 0px;
+}
+
+.abouttext p{
+	color: #20639B;
+	font-size: 40px;
+	font-family: myriad pro;
+	text-align: center;
+}
+
+
 nav{
+    background-color: #20639B;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 0px;   
+    position: fixed;
+    width: 1000px;
+    z-index: 1;    
+}
+.container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 70px;
-    background-color: #20639B;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px 0px;
-    position: fixed;
-    width: 100%
+	 width: 80%;
+    margin: auto;
 }
-
 nav ul{
 	display: flex;
+	width: 30%;
+	margin-right: 8rem;
 }
-
+nav ul li {
+	margin-left: 1rem;
+}
 nav ul li a{
     color:white;	
-    margin:30px;
 	font-family: myriad pro regular;
 	font-size: 20px;
 	font-weight: 700;
@@ -74,4 +96,199 @@ nav ul li a{
 .active{
 	font-weight: bold;
 	color:white;
+}
+
+.about-container {
+	width: 100%;
+	height: 100%;
+	background-color: #20639B;
+	border: #20639B solid ;
+	border-width: 1px;
+	border-radius: 26px;
+	box-shadow: 2px 2px 22px rgba(0,0,0,0.2);
+	display: flex;
+	margin: 3rem 0;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about-container img{
+	height: 32%;
+	width: 32%;
+}
+
+.about-text{
+	width: 60%;
+}
+
+.about-text p:nth-child(1){
+	color: white;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 4rem;
+}
+
+.about-text p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	font-family: myriad pro;
+	margin-bottom: 4rem;
+}		
+
+.about2-container {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	border: #20639B ridge ;
+	border-width: 1px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 22px rgba(0,0,0,0.2);
+	margin:3rem 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about2-container img{
+	height: 45%;
+	width: 45%;
+}
+
+.about2-text{
+	width: 40%;
+}
+
+.about2-text p:nth-child(1){
+	color: #3e3d3d;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.about2-text p:nth-child(2){
+	color: #3e3d3d;
+	font-size: 17px;
+	font-family: myriad pro;
+}		
+
+.about3-container {
+	width: 100%;
+	height: 100%;
+	background-color: #20639B;
+	border: #20639B solid ;
+	border-width: 1px;
+	border-radius: 26px;
+	box-shadow: 2px 2px 22px rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 3rem 0;
+}
+
+.about3-container img{
+	height: 30%;
+	width: 30%;
+}
+
+.about3-text{
+	width: 60%;
+}
+
+.about3-text p:nth-child(1){
+	color: white;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 4rem;
+}
+
+.about3-text p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	font-family: myriad pro;
+}		
+
+.contact {
+	width: 100%;
+	height: 280px;
+	background-color: #20639B;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact p{
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight: bold;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.contact button{
+	width: 200px;
+	height: 40px;
+	background-color: #FFFFFF;
+	outline: none;
+	border: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #20639B;
+	cursor: pointer;
+}
+
+footer {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+
+footer p{
+	font-family: calibri;
+	text-align: center;
+}
+
+.social-icons img{
+	width: 40px;
+	height: 40px;
+}
+
+.social-icons {
+    width:100px;
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+}
+
+table {
+    font-family: myriad pro;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+table td, table th {
+    border: 2px solid #20639B;
+    padding: 8px;
+}
+
+table tr {
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #bcd9ea;
+    color: #20639B;
 }

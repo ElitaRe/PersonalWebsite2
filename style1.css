@@ -10,7 +10,13 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 } 
+
+.all-content {
+	width: 1000px;
+	margin: auto;
+}
 
 ul{
 	list-style: none;
@@ -21,7 +27,7 @@ a:link{
 }	
 
 a:visited{
-	color: #ecf2f9;
+	color: #3498db;
 }
 
 a:hover{
@@ -40,26 +46,32 @@ a:active {
 	background-size: cover;
 	position: relative;
 }
-
 nav{
+    background-color: #20639B;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 0px;   
+    position: fixed;
+    width: 1000px;
+    z-index: 1;
+}
+.container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 70px;
-    background-color: #20639B;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px 0px;
-    position: fixed;
-    width: 100%;
+	 width: 80%;
+    margin: auto;
 }
-
 nav ul{
 	display: flex;
+	width: 30%;
+	margin-right: 8rem;
 }
-
+nav ul li {
+	margin-left: 1rem;
+}
 nav ul li a{
     color:white;	
-    margin:30px;
 	font-family: myriad pro regular;
 	font-size: 20px;
 	font-weight: 700;
@@ -134,18 +146,16 @@ nav ul li a{
 	background-color: white;
 	color: #20639B;
 }
-
 .home-container {
-	width: 70%;
+	width: 100%;
 	height: 100%;
 	background-color: #20639B;
 	border: #20639B solid ;
 	border-width: 1px;
 	border-radius: 26px;
 	box-shadow: 2px 2px 22px rgba(0,0,0,0.2);
-	margin: 13% auto 20px 37px;
 	display: flex;
-	margin: 60px;
+	margin: 3rem 0;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -173,15 +183,15 @@ nav ul li a{
 }		
 
 .home2-container {
-	width: 95%;
+	width: 100%;
 	height: 100%;
 	background-color: white;
 	border: #20639B ridge ;
 	border-width: 1px;
 	border-radius: 5px;
 	box-shadow: 2px 2px 22px rgba(0,0,0,0.2);
-	margin: 13% auto 20px 37px;
 	display: flex;
+	margin-bottom: 3rem;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -209,7 +219,7 @@ nav ul li a{
 }		
 
 .home3-container {
-	width: 70%;
+	width: 100%;
 	height: 100%;
 	background-color: #20639B;
 	border: #20639B solid ;
@@ -217,7 +227,6 @@ nav ul li a{
 	border-radius: 26px;
 	box-shadow: 2px 2px 22px rgba(0,0,0,0.2);
 	display: flex;
-	margin: 13% auto 20px 37px;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 80px;
@@ -271,6 +280,8 @@ nav ul li a{
 	border: none;
 	font-size: 14px;
 	font-weight: bold;
+	color: #20639B;
+	cursor: pointer;
 }
 
 footer{
