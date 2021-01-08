@@ -26,7 +26,7 @@ a:link{
 }	
 
 a:visited{
-	color: #3498db;
+	color: #C1C1C1;
 }
 
 a:hover{
@@ -289,6 +289,6 @@ table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #bcd9ea;
+    background-color: #C1C1C1;
     color: #20639B;
 }

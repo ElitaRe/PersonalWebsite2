@@ -25,7 +25,7 @@ a:link{
 }	
 
 a:visited{
-	color: #3498db;
+	color: #C1C1C1;
 }
 
 a:hover{
@@ -93,7 +93,8 @@ nav ul li a{
 
 
 .contact {
-	width: 100%;
+	width: 1000px;
+	margin:auto;
 	height: 280px;
 	background-color: #20639B;
 	display: flex;
@@ -129,6 +130,8 @@ footer{
 	justify-content: center;
 	align-content: center;
 	position: relative;
+		width: 1000px;
+	margin:auto;
 }
 
 footer p{
@@ -150,7 +153,7 @@ footer p{
 
 .box-1, .box-2, .box-3{
 	width: 500px;
-	height: 350px;
+	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
@@ -158,6 +161,7 @@ footer p{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	padding-top: 80px;
 }
 
 .box-container {

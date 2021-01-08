@@ -26,7 +26,7 @@ a:link{
 }	
 
 a:visited{
-	color: #3498db;
+	color: #C1C1C1;
 }
 
 a:hover{
@@ -95,10 +95,11 @@ nav ul li a{
 .dropbtn {
   background-color: #20639B;
   color: white;
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+  width: 130px;
 }
 
 .dropdown {
@@ -122,6 +123,7 @@ nav ul li a{
   padding: 5px 5px;
   text-decoration: none;
   display: block;
+  text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #bcd9ea;}
